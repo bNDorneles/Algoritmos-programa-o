@@ -1,6 +1,9 @@
 #variaveis 
 
-
+# int: Números inteiros (ex: 10, -5, 0). 
+#float: Números decimais (ex: 3.14, -0.5).
+#str: Texto (ex: "Olá", "Python").
+#bool: Verdadeiro ou falso (ex: True, False). 
 
 # definição de função 
 # onde estamos definindo a função, incluindo seus paramêtros, corpo e retorno
@@ -30,7 +33,32 @@ print("A soma de 3 e 5 é:" ,3+5) # Imprime: "A soma de 3 e 5 é 8"
 
 # INPUT 
 
-#lê o nome do usuario
+# Lê o nome do usuário e não armazena em nenhuma variável
+input("Qual é o seu nome? ")
+# Lê o nome do usuário e atribui à variável nome
+nome = input("Qual é o seu nome? ")
+# Lê uma entrada do usuário sem mostrar mensagem e sem armazenar em variável
+input()
+
+#TYPE
+
+int("5")
+
+#Converte o valor de seu argumento para inteiro.
+
+float("5.3")
+#Converte o valor de seu argumento para decimal
+(float)
+
+str(5)
+#Converte o valor de seu argumento para string
+#(texto)
+
+bool(1)
+#Converte o valor de seu argumento para booleano
+#(True ou False)
+
+
 
 
 

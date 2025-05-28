@@ -1,0 +1,6 @@
+nome = "Bernardo"
+print(nome)
+
+
+
+

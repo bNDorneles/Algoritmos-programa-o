@@ -1,5 +1,5 @@
-temperatura=  float(input("Digite a temperatura: "))
-unidade = (input("Digite a unidade, sendo C para Celsius e F para Fahrenheit: "))
+temperatura =  float(input("Digite a temperatura: "))
+unidade = input("Digite a unidade, sendo C para Celsius e F para Fahrenheit: ")
 
 if unidade == 'C':
     convertida = (temperatura * 9/5) + 32
